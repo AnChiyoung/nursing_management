@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="10dp">
+        <TextView android:textSize="20sp" android:textColor="#000000" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="50dp" android:text="도움말"/>
+        <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+        <TextView android:textSize="20sp" android:textColor="#bdbdbd" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="50dp" android:text="* 게시글을 상세하게 보시려면 길게 클릭해주세요"/>
+        <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+        <TextView android:textSize="20sp" android:textColor="#bdbdbd" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="50dp" android:text="* 글쓰기는 우측 하단의 버튼을 이용해주세요"/>
+        <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+        <TextView android:textSize="20sp" android:textColor="#bdbdbd" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="50dp" android:text="* 관리자와 해당 글의 작성자 외에는 삭제할 수 없습니다"/>
+        <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+    </LinearLayout>
+</LinearLayout>

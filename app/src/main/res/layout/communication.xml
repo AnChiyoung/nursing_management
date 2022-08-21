@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommunicationActivity">
+
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="100dp">
+                <TextView android:textSize="40sp" android:textColor="#bdbdbd" android:gravity="center_vertical" android:layout_centerHorizontal="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="커뮤니케이션"/>
+                <Button android:id="@+id/btn_communication_information" android:background="@drawable/information" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                <ListView android:id="@+id/lv_communication" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="#bdbdbd" android:dividerHeight="0.1dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/btn_write" android:background="@drawable/write" android:layout_width="70dp" android:layout_height="70dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

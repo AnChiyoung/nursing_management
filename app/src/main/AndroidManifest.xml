@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nursing.management">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon20200609"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon20200609_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".LoginGraph02" android:screenOrientation="landscape"></activity>
+        <activity android:name=".LoginGraph01" android:screenOrientation="landscape"></activity>
+        <activity android:name=".Base02Content05" />
+        <activity android:name=".Base02Content04" />
+        <activity android:name=".Base02Content03" />
+        <activity android:name=".Base02Content02" />
+        <activity android:name=".Base02Content01" />
+        <activity android:name=".Base01Cycle" />
+        <activity android:name=".Base01Content" />
+        <activity android:name=".Pro01Title" />
+        <activity android:name=".Pro02Title" />
+        <activity android:name=".Pro05Title" />
+        <activity android:name=".Pro05Cycle" />
+        <activity android:name=".Pro05Content" />
+        <activity android:name=".Pro05Checklist" />
+        <activity android:name=".Pro04Title" />
+        <activity android:name=".Pro04Cycle" />
+        <activity android:name=".Pro04Content" />
+        <activity android:name=".Pro03Title" />
+        <activity android:name=".Pro03Cycle" />
+        <activity android:name=".Pro03Content" />
+        <activity android:name=".Pro03Checklist" />
+        <activity android:name=".Pro02Cycle" />
+        <activity android:name=".Pro02Content" />
+        <activity android:name=".Pro02Checklist" />
+        <activity android:name=".Pro01Cycle" />
+        <activity android:name=".Pro01Content" />
+        <activity android:name=".Pro01Checklist" />
+        <activity android:name=".JoinActivity" />
+        <activity android:name=".Cartoon06" />
+        <activity android:name=".Cartoon05" />
+        <activity android:name=".Cartoon04" />
+        <activity android:name=".Cartoon03" />
+        <activity android:name=".Cartoon02" />
+        <activity android:name=".Cartoon01" />
+        <activity android:name=".CartoonActivity" />
+        <activity android:name=".LoginGraphActivity" />
+        <activity android:name=".ReportActivity" />
+        <activity android:name=".CommunicationActivity" />
+        <activity android:name=".BaseActivity" />
+        <activity android:name=".ProfessionalActivity" />
+        <activity android:name=".ManagementActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

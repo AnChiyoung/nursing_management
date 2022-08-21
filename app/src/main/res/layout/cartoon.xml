@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartoonActivity">
+
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="40sp" android:textColor="#bdbdbd" android:gravity="center_vertical|center_horizontal" android:layout_width="match_parent" android:layout_height="100dp" android:text="핵술+카툰"/>
+        <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="25sp" android:textColor="#000000" android:id="@+id/btn_cartoon01" android:background="#fef6e3" android:layout_width="match_parent" android:layout_height="100dp" android:drawableLeft="@drawable/cartoon01"/>
+                <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                <Button android:textSize="25sp" android:textColor="#000000" android:id="@+id/btn_cartoon02" android:background="#e2f3fa" android:layout_width="match_parent" android:layout_height="100dp" android:drawableRight="@drawable/cartoon02"/>
+                <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                <Button android:textSize="25sp" android:textColor="#000000" android:id="@+id/btn_cartoon03" android:background="#e9f1e6" android:layout_width="match_parent" android:layout_height="100dp" android:drawableLeft="@drawable/cartoon03"/>
+                <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                <Button android:textSize="25sp" android:textColor="#000000" android:id="@+id/btn_cartoon04" android:background="#f8e8e9" android:layout_width="match_parent" android:layout_height="100dp" android:drawableRight="@drawable/cartoon04"/>
+                <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                <Button android:textSize="25sp" android:textColor="#000000" android:id="@+id/btn_cartoon05" android:background="#e3f3f2" android:layout_width="match_parent" android:layout_height="100dp" android:drawableLeft="@drawable/cartoon05"/>
+                <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                <Button android:textSize="25sp" android:textColor="#000000" android:id="@+id/btn_cartoon06" android:background="#e4eaf6" android:layout_width="match_parent" android:layout_height="100dp" android:drawableRight="@drawable/cartoon06"/>
+                <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

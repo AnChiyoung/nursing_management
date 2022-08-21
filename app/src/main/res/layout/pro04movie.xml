@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <Button android:textSize="20sp" android:textColor="#000000" android:layout_gravity="center" android:id="@+id/btn_pro_04_movie_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="혈당검사 종편" android:backgroundTint="#ffffff"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

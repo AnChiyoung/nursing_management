@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginGraphActivity">
+
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="40sp" android:textColor="#bdbdbd" android:gravity="center_vertical|center_horizontal" android:layout_width="match_parent" android:layout_height="100dp" android:text="Login Graph"/>
+        <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp">
+            <TextView android:textSize="20sp" android:textColor="#bdbdbd" android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="개발자 이메일 : dev.goodluckcy@gmail.com"/>
+        </LinearLayout>
+        <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_graph01"
+                android:text="사용자 전체 분포도"
+                android:textSize="20sp"
+                android:textColor="#BDBDBD"
+                android:background="#FFFFFF"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_graph02"
+                android:text="상위 5명 분포도"
+                android:textSize="20sp"
+                android:textColor="#BDBDBD"
+                android:background="#FFFFFF"/>
+        </LinearLayout>
+        <ListView android:id="@+id/lv_graph" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="#bdbdbd" android:dividerHeight="0.1dp"/>
+        <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pro01Checklist">
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button android:textSize="20sp" android:textColor="#000000" android:id="@+id/pro_01_checklist_01" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="고막체온 체크리스트"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1. 필요한 물품을 준비하고 작동여부를 확인한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_01_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_01" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_02" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_03" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. 준비한 물품을 가지고 대상자에게 가서 간호사 자신을 소개한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_01_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_04" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_05" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_06" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3. 손소독제로 손 위생을 실시한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_01_03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_07" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_08" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_09" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="4. 대상자의 이름을 개방형으로 질문하여 대상자를 확인하고, 입원팔찌와 환자리스트(또는 처방지)를 대조하여 대상자(이름, 등록번호)를 확인한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_01_04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_10" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_11" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_12" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="5. 대상자에게 체온을 측정하는 목적과 절차를 설명한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_01_05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_13" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_14" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_15" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="6. 용기에서 탐침 덮개를 꺼낸 후 탐침 덮개를 고막체온계에 덮는다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_01_06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_16" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_17" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_18" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="7. 대상자의 머리를 한 쪽으로 돌려 체온을 측정할 귀를 노출시킨 후 귓바퀴를(성인의 귓바퀴는 후상방으로, 소아는 후하방으로) 당긴 다음 탐침을 부드럽게 외이도로 삽입하여 체온을 측정한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_01_07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_19" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_20" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_21" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="8. 탐침 덮개를 제거 한 후 체온을 메모한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_01_08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_22" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_23" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_24" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="9. 물과 비누로 손위생을 실시한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_01_09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_25" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_26" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_27" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="10. 간호기록지에 체온을 기록한다. 정상범위를 벗어난 경우 담당의에게 보고한다.\10(정상범위 성인: 36.8~37.7도, 소아:35.8~37.9도)"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_01_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_28" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_29" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_01_30" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:gravity="center" android:id="@+id/tv_pro01_01" android:background="@drawable/checklist_sum" android:layout_width="match_parent" android:layout_height="30dp" android:text="합계 : 0"/>
+            </LinearLayout>
+            <Button android:textSize="20sp" android:textColor="#000000" android:id="@+id/pro_01_checklist_02" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="액와체온 체크리스트"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1. 환자에게 설명하고 협조를 구한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_02_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_01" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_02" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_03" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. 손 위생을 시행한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_02_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_04" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_05" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_06" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3. 체온계를 알콜솜으로 닦고 건조시킨 후 사용한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_02_03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_07" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_08" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_09" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="4. 체온계는 눈금이 35도 이하로 되어있는지 확인한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_02_04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_10" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_11" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_12" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="5. 액와를 노출시키고 액와에 땀이 나 있으면 타월로 두드려서 닦는다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_02_05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_13" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_14" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_15" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="6. 액와중간에 체온계의 수은구가 위치하도록 넣고 어깨를 붙이고 손을 가슴 위에 올린다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_02_06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_16" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_17" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_18" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="7. 환자가 불안정하면 환자의 팔을 붙잡아 준다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_02_07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_19" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_20" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_21" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="8. 성인은 9분, 유아나 소아는 5분간 측정한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_02_08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_22" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_23" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_24" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="9. 체온계를 눈높이에 들고 수은주가 가리키는 눈금을 읽는다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_02_09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_25" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_26" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_27" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="10. 체온계를 다시 35도 이하로 털고 알콜솜으로 닦아서 보관한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_02_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_28" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_29" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_30" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="11. 손 위생 실시한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_02_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_31" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_32" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_33" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="12. 체온을 기록한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_02_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_34" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_35" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_36" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="13. 정상범위를 벗어난 경우 담당의에게 보고한다.\10(정상범위 성인: 35.8~37도, 소아:35.8~37.3도)"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_02_13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_37" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_38" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_02_39" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:gravity="center" android:id="@+id/tv_pro01_02" android:background="@drawable/checklist_sum" android:layout_width="match_parent" android:layout_height="30dp" android:text="합계 : 0"/>
+            </LinearLayout>
+            <Button android:textSize="20sp" android:textColor="#000000" android:id="@+id/pro_01_checklist_03" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="직장체온 체크리스트"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1. 환자에게 설명하고 협조를 구한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_03_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_01" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_02" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_03" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. 손 위생을 시행한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_03_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_04" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_05" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_06" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3. 체온계를 탐침부위를 알콜솜으로 닦는다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_03_03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_07" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_08" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_09" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="4. 체온계는 눈금이 35도 이하로 되어있는지 확인한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_03_04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_10" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_11" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_12" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="5. 직장체온계 끝에 수용성 윤활제를 바른다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_03_05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_13" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_14" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_15" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="6. 편안하게 옆으로 돌아 눕히고 항문주위만 노출시킨다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_03_06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_16" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_17" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_18" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="7. 환자에게 심호흡하도록 하고 항문으로 체온계를 2.5~4cm 가량 부드럽게 삽입한다. 심호흡은 항문의 외괄약근이 이완되도록 돕는다. 체온계를 힘으로 밀어 넣지 않도록 주의한다.(영아:1.25cm, 아동:2.5cm, 성인:3.8cm)"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_03_07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_19" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_20" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_21" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="8. 체온계를 빼고 알콜솜으로 수은구를 향하여 닦는다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_03_08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_22" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_23" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_24" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="9. 체온계를 눈높이에 들고 수은주가 가리키는 눈금을 읽는다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_03_09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_25" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_26" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_27" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="10. 환자의 항문을 닦아주고 편안하게 해준다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_03_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_28" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_29" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_30" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="11. 체온계를 다시 35도 이하로 털고 알콜솜으로 닦고 흐르는 물에 헹궈 건조시켜 보관한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_03_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_31" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_32" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_33" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="12. 손 위생을 실시한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_03_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_34" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_35" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_36" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="13. 정상범위를 벗어난 경우 담당의에게 보고한다.\10(정상범위 성인: 37.0~37.7도, 소아:37.0~38.1도)"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_03_13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_37" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_38" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_03_39" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:gravity="center" android:id="@+id/tv_pro01_03" android:background="@drawable/checklist_sum" android:layout_width="match_parent" android:layout_height="30dp" android:text="합계 : 0"/>
+            </LinearLayout>
+            <Button android:textSize="20sp" android:textColor="#000000" android:id="@+id/pro_01_checklist_04" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="구강체온 체크리스트"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1. 환자에게 설명하고 협조를 구한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_04_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_01" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_02" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_03" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. 손위생을 시행한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_04_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_04" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_05" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_06" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3. 체온계를 알콜솜으로 닦고 건조시킨 후 사용한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_04_03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_07" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_08" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_09" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="4. 체온계는 눈금이 35도 이하로 되어있는지 확인한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_04_04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_10" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_11" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_12" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="5. 체온계는 혀 아래 설소대의 좌 혹은 우측에 놓고 3분간 입을 다물도록 한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_04_05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_13" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_14" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_15" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="6. 체온계를 눈높이에 들고 수은주가 가르키는 눈금을 읽는다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_04_06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_16" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_17" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_18" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="7. 체온계를 다시 35도 이하로 털고 알콜솜으로 닦아서 보관한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_04_07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_19" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_20" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_21" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="8. 손위생을 실시한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_04_08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_22" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_23" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_24" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="9. 체온을 기록한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_04_09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_25" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_26" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_27" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="10. 정상범위를 벗어난 경우 담당의에게 보고한다.\10(정상범위 성인: 35.7~37도, 소아:35.5~38도)"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_04_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_28" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_29" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_04_30" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:gravity="center" android:id="@+id/tv_pro01_04" android:background="@drawable/checklist_sum" android:layout_width="match_parent" android:layout_height="30dp" android:text="합계 : 0"/>
+            </LinearLayout>
+            <Button android:textSize="20sp" android:textColor="#000000" android:id="@+id/pro_01_checklist_05" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="요골맥박 체크리스트"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1. 맥박 측정부위를 결정한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_05_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_01" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_02" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_03" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. 손위생을 시행한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_05_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_04" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_05" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_06" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3. 손바닥을 위로 향하게 하여 팔을 편안한 자세로 놓는다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_05_03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_07" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_08" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_09" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="4. 둘째, 셋째, 넷째 손가락으로 요골동맥을 확인하여 가볍게 누른다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_05_04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_10" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_11" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_12" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="5. 규칙적인 맥박: 30초 동안 맥박을 측정하여 2배수 한다, 불규칙적일 경우 1분 동안 측정한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_05_05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_13" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_14" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_15" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="6. 손위생을 시행한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_05_06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_16" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_17" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_18" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="7. 맥박을 기록한다"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_05_07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_19" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_20" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_21" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="8. 정상범위를 벗어난 경우 담당의에게 보고한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_05_08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_22" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_23" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_05_24" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:gravity="center" android:id="@+id/tv_pro01_05" android:background="@drawable/checklist_sum" android:layout_width="match_parent" android:layout_height="30dp" android:text="합계 : 0"/>
+            </LinearLayout>
+            <Button android:textSize="20sp" android:textColor="#000000" android:id="@+id/pro_01_checklist_06" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="심첨맥박 체크리스트"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1. 손위생을 실시한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_06_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_01" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_02" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_03" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. 알콜솜을 청진기의 귀꽂이 부분과 판막 부분을 닦는다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_06_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_04" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_05" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_06" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3. 환자를 앙와위로 눕히거나 앉게 한 후 왼쪽 가슴을 노출시킨다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_06_03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_07" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_08" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_09" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="4. -성인은 5번째 늑간과 왼쪽 쇄골 중심선이 만나는 지점에서 오른쪽 부위에 청진기를 댄다.\10-4~6세 소아는 5번째 늑간과 왼쪽 쇄골 중심선이 만나는 지점에서 왼쪽 부위에 청진기를 댄다.\10-4세 이전 소아는 4번째 늑간과 왼쪽 쇄골 중심선이 만나는 지점에서 왼쪽부위에 청진기를 댄다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_06_04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_10" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_11" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_12" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="5. 청진기를 귀에 꽂고 1분간 맥박을 잰다"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_06_05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_13" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_14" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_15" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="6. 측정시 흉곽의 대칭성, 얼굴표정, 피부색, 호흡의 깊이와 리듬, 보조근육 이용상태, 호흡음을 사정한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_06_06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_16" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_17" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_18" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="7. 알콜솜으로 청진기의 귀꽂이 부분과 판막부분을 닦은 후 정리한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_06_07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_19" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_20" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_21" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="8. 손위생을 실시한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_06_08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_22" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_23" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_24" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="9. 심첨맥박을‘HR&apos;로 표기하여 기록한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_06_09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_25" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_26" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_27" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="10. 정상범위를 벗어난 경우 담당의에게 보고한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_06_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_28" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_29" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_06_30" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:gravity="center" android:id="@+id/tv_pro01_06" android:background="@drawable/checklist_sum" android:layout_width="match_parent" android:layout_height="30dp" android:text="합계 : 0"/>
+            </LinearLayout>
+            <Button android:textSize="20sp" android:textColor="#000000" android:id="@+id/pro_01_checklist_07" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="심첨요골맥박 체크리스트"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1. 손위생을 실시한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_07_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_01" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_02" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_03" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. 알콜솜을 청진기의 귀꽂이 부분과 판막 부분을 닦는다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_07_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_04" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_05" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_06" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3. 환자를 앙와위로 눕히거나 앉게 한 후 왼쪽 가슴을 노출시킨다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_07_03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_07" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_08" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_09" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="4. 2인의 간호사 중 1인은 요골맥박을 잡고, 나머지 1인은 청진기로 심첨맥박을 측정한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_07_04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_10" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_11" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_12" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="5. 시계초침을 두 사람이 동시에 보이는 곳에 놓고 한 사람이 ‘시작’하는 소리와 함께 동시에 시작해서 1분간 측정한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_07_05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_13" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_14" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_15" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="6. 알콜솜으로 청진기의 귀꽂이 부분과 판막부분을 닦은 후 정리한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_07_06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_16" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_17" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_18" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="7. 손위생을 실시한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_07_07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_19" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_20" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_21" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="8. 맥박 수를 기록한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_07_08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_22" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_23" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_24" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="9. 정상범위를 벗어난 경우 담당의에게 보고한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_07_09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_25" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_26" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_07_27" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:gravity="center" android:id="@+id/tv_pro01_07" android:background="@drawable/checklist_sum" android:layout_width="match_parent" android:layout_height="30dp" android:text="합계 : 0"/>
+            </LinearLayout>
+            <Button android:textSize="20sp" android:textColor="#000000" android:id="@+id/pro_01_checklist_08" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="호흡 체크리스트"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1. 손위생을 실시한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_08_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_01" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_02" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_03" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. 요골맥박을 측정한 후 손목을 계속 잡은 상태에서 환자의 흉곽 움직임을 관찰하여 호흡을 측정한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_08_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_04" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_05" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_06" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3. 육안으로 관찰이 어려운 경우 환자의 가슴에 손을 가볍게 올려 흉곽의 움직임을 느낀다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_08_03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_07" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_08" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_09" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="4. 호흡이 정상이면 30초간 측정하여 2배하고, 비정상일 경우 또는 영아의 경우 최소 1분간 측정한다.(영아의 호흡은 복부의 움직임을 관찰한다-필요시 청진기 사용)"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_08_04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_10" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_11" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_12" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="5. 호흡시 흉곽의 대칭성, 호흡음, 피부색, 얼굴표정, 호흡의 깊이와 리듬을 관찰한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_08_05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_13" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_14" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_15" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="6. 호흡이 얕거나 호흡 양상을 정확히 볼 수 없다면 흉골 절흔을 관찰한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_08_06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_16" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_17" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_18" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="7. 손위생을 실시한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_08_07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_19" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_20" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_21" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="8. 호흡수와 양상을 기록한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_08_08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_22" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_23" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_24" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="9. 정상범위를 벗어난 경우 담당의에게 보고한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_08_09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_25" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_26" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_08_27" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:gravity="center" android:id="@+id/tv_pro01_08" android:background="@drawable/checklist_sum" android:layout_width="match_parent" android:layout_height="30dp" android:text="합계 : 0"/>
+            </LinearLayout>
+            <Button android:textSize="20sp" android:textColor="#000000" android:id="@+id/pro_01_checklist_09" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="상박혈압 체크리스트"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1. 환자에게 혈압을 측정할 것을 설명하고 혈압을 측정하기 전에 안정된 상태였는지 확인한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_09_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_01" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_02" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_03" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. 손위생을 실시한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_09_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_04" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_05" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_06" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3. 편안한 자세로 손바닥이 위로 오도록 한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_09_03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_07" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_08" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_09" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="4. 혈압 측정 부위인 상박을 심장위치와 같은 높이로 맞춘다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_09_04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_10" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_11" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_12" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="5. 혈압계의 수은주가“0”에 있는지 확인하고 혈압계를 수직으로 세워 측정한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_09_05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_13" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_14" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_15" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="6. 커프에서 바람을 빼고 커프의 하단이 상완동맥의 박동이 가장 잘 촉지되는 곳에서 2~3cm 위에 위치하도록 하고, bulb와 연결된 관은 팔의 내면에 오도록 하여 손가락 두 개가 들어갈 정도의 여유응 두고 균일하기 감는다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_09_06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_16" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_17" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_18" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="7. 상완동맥 위에 청진기를 댄다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_09_07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_19" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_20" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_21" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="8. 혈압기의 조절 밸브를 잠그고 압력 Bulb를 눌러 160~200mmHg 정도 올라가게 한다.(상완동맥의 맥박이 사라진 지점으로부터 30mmHg만큼 압력을 높인다)"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_09_08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_22" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_23" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_24" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="9. 밸브에 부착된 조절기를 이용해 서서히 2~4mmHg/초의 속도로 공기를 빼면서 처음 소리가 들리는 시점의 눈금을 수축기압으로 읽는다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_09_09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_25" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_26" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_27" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="10. 같은 속도로 압력을 낮추면서 소리가 마지막으로 사라지는 시점의 눈금을 이완기압으로 읽는다.(소아의 경우 같은 속도로 압력을 낮추면서 소리가 갑자기 작아지는 시점을 이완이압으로 읽는다)"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_09_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_28" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_29" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_30" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="11. 커프의 바람을 빼어 0까지 내린다. 만일 다시 측정해야 할 경우라면 1~2분 후에 측정한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_09_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_31" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_32" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_33" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="12. 커프를 풀고 혈압계를 정리하여 제자리에 둔다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_09_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_34" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_35" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_36" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="13. 손위생을 실시한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_09_13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_37" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_38" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_39" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="14. 혈압의 측정치를 기록한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_09_14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_40" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_41" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_42" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="15. 정상범위 벗어난 경우 담당의에게 보고한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_09_15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_43" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_44" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_09_45" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:gravity="center" android:id="@+id/tv_pro01_09" android:background="@drawable/checklist_sum" android:layout_width="match_parent" android:layout_height="30dp" android:text="합계 : 0"/>
+            </LinearLayout>
+            <Button android:textSize="20sp" android:textColor="#000000" android:id="@+id/pro_01_checklist_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="대퇴혈압 체크리스트"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1. 환자의 체위를 복위 또는 앙와위로 유지한 상태에서 무릎을 약간 구부리게 한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_10_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_01" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_02" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_03" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. 손위생을 실시한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_10_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_04" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_05" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_06" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3. 혈압계의 수은주가“0”에 있는지 확인하고 혈압계를 수직으로 세워 측정한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_10_03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_07" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_08" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_09" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="4. 커프에서 바람을 빼고 커프의 하단이 슬와동맥의 박동이 가장 잘 촉지되는 곳에서 2-3cm 위에 위치하도록 하고, bulb와 연결된 관은 대퇴의 내면에 오도록 하여 손가락 두 개가 들어갈 정도의 여유를 두고 균일하게 감는다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_10_04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_10" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_11" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_12" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="5. 슬와동맥을 손으로 만져 맥박이 만져지는 곳에 청진기를 댄다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_10_05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_13" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_14" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_15" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="6. 혈압기의 조절 밸브를 잠그고 압력 Bulb를 눌러 160~200mmHg 정도 올라가게 한다.(상완동맥의 맥박이 사라진 지점으로부터 30mmHg만큼 압력을 높인다)"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_10_06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_16" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_17" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_18" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="7. 밸브에 부착된 조절기를 이용해 서서히 2~4mmHg/초의 속도로 공기를 빼면서 처음 소리가 들리는 시점의 눈금을 수축기압으로 읽는다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_10_07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_19" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_20" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_21" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="8. 같은 속도로 압력을 낮추면서 소리가 마지막으로 사라지는 시점의 눈금을 이완기압으로 읽는다.(소아의 경우 같은 속도로 압력을 낮추면서 소리가 갑자기 작아지는 시점을 이완이압으로 읽는다)"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_10_08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_22" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_23" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_24" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="9. 커프의 바람을 빼어 0까지 내린다. 만일 다시 측정해야 할 경우라면 1~2분 후에 측정한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_10_09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_25" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_26" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_27" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="10. 커프를 풀고 혈압계를 정리하여 제자리에 둔다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_10_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_28" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_29" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_30" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="11. 손위생을 실시한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_10_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_31" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_32" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_33" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="12. 대퇴혈압을 기록한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_10_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_34" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_35" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_36" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="13. 정상범위 벗어난 경우 담당의에게 보고한다."/>
+                <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/rg_pro01_10_13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_37" android:layout_width="100dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_38" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro01_10_39" android:layout_width="100dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:gravity="center" android:id="@+id/tv_pro01_10" android:background="@drawable/checklist_sum" android:layout_width="match_parent" android:layout_height="30dp" android:text="합계 : 0"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

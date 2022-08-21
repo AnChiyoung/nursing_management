@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BaseActivity">
+
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="40sp" android:textColor="#bdbdbd" android:gravity="center_vertical|center_horizontal" android:layout_width="match_parent" android:layout_height="100dp" android:text="기본간호"/>
+        <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="25sp" android:textColor="#000000" android:id="@+id/btn_base01" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="100dp" android:text="환자 이동 및 환의 교환"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/layout_base01" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_movie_base01" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="환자 환의 교환 및 이동 영상" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_cycle_base01" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="환자 환의 교환 및 이동 순서" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_content_base01" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="환자 환의 교환 및 이동 내용" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                </LinearLayout>
+                <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                <Button android:textSize="25sp" android:textColor="#000000" android:id="@+id/btn_base02" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="100dp" android:text="혈액 검사의 임상적 의의"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/layout_base02" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_title_base02_01" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="혈액 검사" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_title_base02_02" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="혈청 전해질 검사" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_title_base02_03" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="혈액 응고 검사" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_title_base02_04" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="소변 검사" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_title_base02_05" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ABGA" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                </LinearLayout>
+                <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                <Button android:textSize="25sp" android:textColor="#000000" android:id="@+id/btn_base03" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="100dp" android:text="병동별 의학용어 정리"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/layout_base03" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_title_base03_01" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="내과병동" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_title_base03_02" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="근골격계" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_title_base03_03" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="소화기계" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_title_base03_04" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="호흡기계" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_title_base03_05" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="중환자실" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_title_base03_06" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="응급실" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_title_base03_07" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="수술실" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_title_base03_08" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="모성간호" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_title_base03_09" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="아동간호" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_title_base03_10" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="신생아실" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                    <Button android:textSize="25sp" android:textColor="#000000" android:gravity="center" android:id="@+id/btn_title_base03_11" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="정신간호" android:backgroundTint="#ffffff"/>
+                    <View android:background="@drawable/line_child_menu" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                </LinearLayout>
+                <View android:background="#bdbdbd" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

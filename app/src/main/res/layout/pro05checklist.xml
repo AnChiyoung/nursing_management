@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pro05Checklist">
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="10dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button android:textSize="20sp" android:textColor="#000000" android:id="@+id/pro_05_checklist_01" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="브레이든 척도"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1. 감각지각"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="vertical" android:id="@+id/rg_pro05_01_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_01" android:layout_width="150dp" android:layout_height="wrap_content" android:text="1 (완전제한)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_02" android:layout_width="150dp" android:layout_height="wrap_content" android:text="2 (매우제한)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_03" android:layout_width="150dp" android:layout_height="wrap_content" android:text="3 (약간제한)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_04" android:layout_width="150dp" android:layout_height="wrap_content" android:text="4 (제한없음)" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. 습기"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="vertical" android:id="@+id/rg_pro05_01_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_05" android:layout_width="150dp" android:layout_height="wrap_content" android:text="1 (항상촉촉함)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_06" android:layout_width="150dp" android:layout_height="wrap_content" android:text="2 (촉촉함)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_07" android:layout_width="150dp" android:layout_height="wrap_content" android:text="3 (가끔촉촉함)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_08" android:layout_width="150dp" android:layout_height="wrap_content" android:text="4 (거의촉촉하지않음)" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3. 활동"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="vertical" android:id="@+id/rg_pro05_01_03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_09" android:layout_width="150dp" android:layout_height="wrap_content" android:text="1 (침대에만 있음)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_10" android:layout_width="150dp" android:layout_height="wrap_content" android:text="2 (주로 앉아 있음)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_11" android:layout_width="150dp" android:layout_height="wrap_content" android:text="3 (가끔 보행함)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_12" android:layout_width="150dp" android:layout_height="wrap_content" android:text="4 (자주 보행함)" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="4. 기동성"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="vertical" android:id="@+id/rg_pro05_01_04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_13" android:layout_width="150dp" android:layout_height="wrap_content" android:text="1 (완전 부동)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_14" android:layout_width="150dp" android:layout_height="wrap_content" android:text="2 (매우 제한)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_15" android:layout_width="150dp" android:layout_height="wrap_content" android:text="3 (약간 제한)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_16" android:layout_width="150dp" android:layout_height="wrap_content" android:text="4 (제한 없음)" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="5. 영양"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="vertical" android:id="@+id/rg_pro05_01_05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_17" android:layout_width="150dp" android:layout_height="wrap_content" android:text="1 (매우 불량)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_18" android:layout_width="150dp" android:layout_height="wrap_content" android:text="2 (불량함)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_19" android:layout_width="150dp" android:layout_height="wrap_content" android:text="3 (적절함)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_20" android:layout_width="150dp" android:layout_height="wrap_content" android:text="4 (우수함)" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="6. 마찰과 응전력"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="vertical" android:id="@+id/rg_pro05_01_06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_21" android:layout_width="150dp" android:layout_height="wrap_content" android:text="1 (문제가 있음)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_22" android:layout_width="150dp" android:layout_height="wrap_content" android:text="2 (잠재적 문제)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_01_23" android:layout_width="150dp" android:layout_height="wrap_content" android:text="3 (문제없음)" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:gravity="center" android:id="@+id/pro05_01_sum" android:background="@drawable/checklist_sum" android:layout_width="match_parent" android:layout_height="30dp" android:text="합계 : 0"/>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="&lt;해석&gt;\n① 점수범위는 6~23점에 분포됨\n② 점수가 낮을수록 욕창 위험이 높음을 의미\n③ 16점 이하 : 위험 요인이 많음\n④ 9점 이하 : 고위험 대상자\n⑤ 노인 : 17~18점일지라도 욕창 발생 위험이 높은 것으로 해석"/>
+            </LinearLayout>
+            <Button android:textSize="20sp" android:textColor="#000000" android:id="@+id/pro_05_checklist_02" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Morse Fall Scale(MFS)"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1. 낙상의 위험"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="vertical" android:id="@+id/rg_pro05_02_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_02_01" android:layout_width="150dp" android:layout_height="wrap_content" android:text="0 (없음)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_02_02" android:layout_width="150dp" android:layout_height="wrap_content" android:text="25 (있음)" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. 2차적인 진단"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="vertical" android:id="@+id/rg_pro05_02_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_02_03" android:layout_width="150dp" android:layout_height="wrap_content" android:text="0 (없음)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_02_04" android:layout_width="150dp" android:layout_height="wrap_content" android:text="15 (있음)" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3. 보행 보조"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="vertical" android:id="@+id/rg_pro05_02_03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_02_05" android:layout_width="150dp" android:layout_height="wrap_content" android:text="0 (보조기사용/와상/케어자가 도와줌)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_02_06" android:layout_width="150dp" android:layout_height="wrap_content" android:text="15 (목발/지팡이/보행기 사용)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_02_07" android:layout_width="150dp" android:layout_height="wrap_content" android:text="30 (기구 잡고 보행)" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="4. 정맥수액요법/Heparin Lock"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="vertical" android:id="@+id/rg_pro05_02_04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_02_08" android:layout_width="150dp" android:layout_height="wrap_content" android:text="0 (없음)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_02_09" android:layout_width="150dp" android:layout_height="wrap_content" android:text="20 (있음)" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="5. 걸음걸이"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="vertical" android:id="@+id/rg_pro05_02_05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_02_10" android:layout_width="150dp" android:layout_height="wrap_content" android:text="0 (정상/와상/부동)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_02_11" android:layout_width="150dp" android:layout_height="wrap_content" android:text="10 (허약함)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_02_12" android:layout_width="150dp" android:layout_height="wrap_content" android:text="20 (장애 있음)" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="6. 정신 상태"/>
+                <RadioGroup android:layout_gravity="right" android:orientation="vertical" android:id="@+id/rg_pro05_02_06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3">
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_02_13" android:layout_width="150dp" android:layout_height="wrap_content" android:text="0 (자신의 기능 수준을 잘 파악)" android:layout_weight="1"/>
+                    <RadioButton android:textSize="15sp" android:textColor="#000000" android:id="@+id/rb_pro05_02_14" android:layout_width="150dp" android:layout_height="wrap_content" android:text="15 (자신의 기능 수준 과대평가 또는 망각)" android:layout_weight="1"/>
+                </RadioGroup>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:gravity="center" android:id="@+id/pro05_02_sum" android:background="@drawable/checklist_sum" android:layout_width="match_parent" android:layout_height="30dp" android:text="합계 : 0"/>
+                <TextView android:textSize="15sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="&lt;위험도 평가&gt;\n① 0~24 낙상위험 거의 없음(No risk)\n② 25~50 낙상위험 낮음(Low risk)\n③ 51 이상 낙상위험 높음(High risk)"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

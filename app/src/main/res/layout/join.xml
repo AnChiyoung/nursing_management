@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JoinActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView android:textSize="50sp" android:textColor="#bdbdbd" android:gravity="bottom|center_horizontal" android:layout_width="match_parent" android:layout_height="80dp" android:text="JOIN"/>
+        <TextView android:textSize="50sp" android:textColor="#bdbdbd" android:gravity="top|center_horizontal" android:layout_width="match_parent" android:layout_height="80dp" android:text="PASSWORD CHANGE"/>
+    </LinearLayout>
+
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="15sp" android:textColor="#bdbdbd" android:layout_width="300dp" android:layout_height="wrap_content" android:text="* 원하는 메뉴를 선택해주세요"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="300dp" android:layout_height="100dp" android:weightSum="2">
+            <Button android:textSize="20sp" android:textColor="#bdbdbd" android:gravity="center_vertical" android:id="@+id/btn_join_01" android:background="#00ff0000" android:layout_width="match_parent" android:layout_height="0dp" android:text="→   JOIN" android:layout_weight="1" android:backgroundTint="#bdbdbd"/>
+            <Button android:textSize="20sp" android:textColor="#bdbdbd" android:gravity="center_vertical" android:id="@+id/btn_join_02" android:background="#00ff0000" android:layout_width="match_parent" android:layout_height="0dp" android:text="→   PASSWORD CHANGE" android:layout_weight="1" android:backgroundTint="#bdbdbd"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/layout_join" android:layout_width="300dp" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:textColor="#bdbdbd" android:layout_width="300dp" android:layout_height="wrap_content" android:text="* 공백으로 비워둘 수 없습니다\n* 아이디는 영문으로만 가능합니다\n* 비밀번호는 영문으로 시작하여 8~15자리를 입력하여주세요"/>
+            <EditText android:textSize="20sp" android:textColor="#bdbdbd" android:id="@+id/et_join_name" android:layout_width="300dp" android:layout_height="50dp" android:hint="이름을 입력해주세요" android:singleLine="true"/>
+            <EditText android:textSize="20sp" android:textColor="#bdbdbd" android:id="@+id/et_join_id" android:layout_width="300dp" android:layout_height="50dp" android:hint="아이디를 입력해주세요" android:singleLine="true"/>
+            <EditText android:textSize="20sp" android:textColor="#bdbdbd" android:id="@+id/et_join_password" android:layout_width="300dp" android:layout_height="50dp" android:hint="비밀번호를 입력해주세요" android:singleLine="true" android:inputType="textPassword"/>
+            <EditText android:textSize="20sp" android:textColor="#bdbdbd" android:id="@+id/et_join_re_password" android:layout_width="300dp" android:layout_height="50dp" android:hint="비밀번호를 다시 한 번 입력해주세요" android:singleLine="true" android:inputType="textPassword"/>
+            <Button android:textSize="20sp" android:textColor="#bdbdbd" android:id="@+id/btn_join_submit" android:background="@drawable/btn_effect" android:layout_width="300dp" android:layout_height="50dp" android:text="JOIN"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/layout_password_change" android:visibility="gone" android:layout_width="300dp" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:textColor="#bdbdbd" android:layout_width="300dp" android:layout_height="wrap_content" android:text="* 비밀번호는 영문으로 시작하여 8~15자리를 입력하여주세요"/>
+            <EditText android:textSize="20sp" android:textColor="#bdbdbd" android:id="@+id/et_join_id_02" android:layout_width="300dp" android:layout_height="50dp" android:hint="아이디를 입력해주세요" android:singleLine="true"/>
+            <EditText android:textSize="20sp" android:textColor="#bdbdbd" android:id="@+id/et_join_password_origin" android:layout_width="300dp" android:layout_height="50dp" android:hint="현재 비밀번호를 입력해주세요" android:singleLine="true" android:inputType="textPassword"/>
+            <EditText android:textSize="20sp" android:textColor="#bdbdbd" android:id="@+id/et_join_password_02" android:layout_width="300dp" android:layout_height="50dp" android:hint="변경하실 비밀번호를 입력해주세요" android:singleLine="true" android:inputType="textPassword"/>
+            <EditText android:textSize="20sp" android:textColor="#bdbdbd" android:id="@+id/et_join_re_password_02" android:layout_width="300dp" android:layout_height="50dp" android:hint="변경하실 비밀번호를 다시 한 번 입력해주세요" android:singleLine="true" android:inputType="textPassword"/>
+            <Button android:textSize="20sp" android:textColor="#bdbdbd" android:id="@+id/btn_change" android:background="@drawable/btn_effect" android:layout_width="300dp" android:layout_height="50dp" android:text="CHANGE"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
